@@ -21,7 +21,7 @@
 }
 .clock {
   top: 50%;
-  background: rgba(0, 221, 255, 0.053);
+  background: rgba(0, 221, 255, 0.229);
   backdrop-filter: blur(40px);
   border-radius: 6px;
   font-size: 7rem;
