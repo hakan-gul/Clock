@@ -30,14 +30,6 @@
 .hour {
   margin-left: 50px;
 }
-.circle {
-  position: absolute;
-  background-image: url("./1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: 0.8;
-  z-index: 0;
-}
 
 @media (max-width: 567px) {
   .clock {
@@ -47,16 +39,11 @@
     width: 320px;
     height: 80px;
   }
-  .circle {
-    left: 1%;
-    top: 38%;
-    width: 150px;
-    height: 150px;
   }
   .hour {
     margin-left: 40px;
   }
-}
+
 @media (min-width: 568px) and (max-width: 767.9px) {
   .clock {
     font-size: 3rem;
@@ -64,12 +51,6 @@
   .container {
     width: 480px;
     height: 120px;
-  }
-  .circle {
-    left: 3%;
-    top: 33%;
-    width: 200px;
-    height: 200px;
   }
   .hour {
     margin-left: 50px;
@@ -83,12 +64,6 @@
     width: 600px;
     height: 150px;
   }
-  .circle {
-    left: 1%;
-    top: 28%;
-    width: 250px;
-    height: 250px;
-  }
   .hour {
     margin-left: 50px;
   }
@@ -100,12 +75,6 @@
   .container {
     width: 880px;
     height: 220px;
-  }
-  .circle {
-    left: 3%;
-    top: 19%;
-    width: 280px;
-    height: 280px;
   }
   .hour {
     margin-left: 60px;
@@ -119,12 +88,6 @@
     width: 880px;
     height: 220px;
   }
-  .circle {
-    left: 3%;
-    top: 19%;
-    width: 280px;
-    height: 280px;
-  }
   .hour {
     margin-left: 65px;
   }
@@ -136,12 +99,6 @@
   .container {
     width: 1000px;
     height: 250px;
-  }
-  .circle {
-    left: 8%;
-    top: 13%;
-    width: 300px;
-    height: 300px;
   }
   .hour {
     margin-left: 57px;
@@ -156,12 +113,6 @@
     width: 1000px;
     height: 250px;
   }
-  .circle {
-    left: 8%;
-    top: 11%;
-    width: 400px;
-    height: 400px;
-  }
   .hour {
     margin-left: 60px;
   }
@@ -175,32 +126,7 @@
     width: 1000px;
     height: 250px;
   }
-  .circle {
-    left: 15%;
-    top: 15%;
-    width: 400px;
-    height: 400px;
-  }
   .hour {
     margin-left: 53px;
-  }
-}
-.updown-animation {
-  animation-name: infiniteupdown;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  transition: all 0.3s;
-}
-
-@keyframes infiniteupdown {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
